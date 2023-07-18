@@ -58,10 +58,10 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 .container .container-h1 {
   font-size: 40px;
-  padding-bottom: 20px;
 }
 .container .converter > :not(:last-child) {
   margin-bottom: 3px;
@@ -76,4 +76,17 @@ table {
 }
 .container .converter .converter-equals {
   font-size: 40px;
+}
+.container .container-button {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}
+.container .container-button:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=index.css.map */
